@@ -1,0 +1,8 @@
+{
+  "stepDefinitions": [
+    "[filepart]/step_definitions/**/*.ts"
+  ],
+  "json": {
+    "enabled": true
+  }
+}

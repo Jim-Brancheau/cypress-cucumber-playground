@@ -1,0 +1,11 @@
+{
+    "cucumber.features": [
+        "cypress/features/**/*.feature"
+    ],
+    "cucumber.glue": [
+        "cypress/features/**/*.ts",
+    ],
+    "cSpell.words": [
+        "badeball"
+    ]
+}

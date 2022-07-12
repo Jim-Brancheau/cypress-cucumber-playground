@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "cypress:open": "npx cypress open"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.4.0",
+    "@testing-library/cypress": "^8.0.3",
+    "cypress": "^10.3.0",
+    "typescript": "^4.7.4",
+    "ts-loader": "latest",
+    "@cypress/browserify-preprocessor": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "[filepart]/**/*.steps.ts"
+    ],
+    "json": {
+      "enabled": true
+    }
+  }
+}
